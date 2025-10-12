@@ -14,7 +14,6 @@ public class Principal {
                         
                         Sea bienvenido al "Conversor de monedas"\
                         
-                        
                         1) Dolar ==> Peso argentino\
                         
                         2) Peso argentino ==> Dolar\
@@ -28,7 +27,6 @@ public class Principal {
                         6) Peso colombiano ==> Dolar\
                         
                         7) Salir\
-                        
                         
                         Elija una opción válida\
                         
@@ -55,10 +53,12 @@ public class Principal {
                     cantidad = Double.parseDouble(entrada);
                 } catch (NumberFormatException e) {
                     System.out.println("Error: La entrada no es un número válido.");
-                    continue; // Vuelve al inicio del bucle
+
+                    // Vuelve al inicio del bucle
+                    continue;
                 }
                 Calculos calculos = new Calculos(opcion, consultaAPI, cantidad);
-                System.out.println("El valor " + cantidad + " [" + calculos.obtendivisa1()+ "]" + " corresponde al valor final de ==> " + calculos.calculaValorFinalDivisa() + " [" + calculos.obtendivisa2()+ "]");
+                System.out.println("El valor " + cantidad + " [" + calculos.obtendivisaBase()+ "]" + " corresponde al valor final de ==> " + calculos.calculaValorFinalDivisa() + " [" + calculos.obtendivisaDestino()+ "]");
             } catch (NumberFormatException e) {
                 System.out.println("Número no encontrado " + e.getMessage());
             } catch (RuntimeException e) {
