@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src= "index.js" defer></script>
+<!--    <script src="data.js"></script>-->
+    <title>Currency Converter</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>Currency Converter</h2>
+
+    <input type="number" id="cantidad" placeholder="Enter amount">
+
+    <button onclick="convertir(1)">Dollar → Argentine peso</button>
+    <button onclick="convertir(2)">Argentine peso → Dollar</button>
+    <button onclick="convertir(3)">Dollar → Brazilian real</button>
+    <button onclick="convertir(4)">Brazilian real → Dollar</button>
+    <button onclick="convertir(5)">Dollar → Colombian peso</button>
+    <button onclick="convertir(6)">Colombian peso → Dollar</button>
+    <button onclick="convertir(7)">Dollar → Mexican peso</button>
+    <button onclick="convertir(8)">Mexican peso → Dollar</button>
+
+    <div id="resultado"></div>
+</div>
+</body>
+</html>
