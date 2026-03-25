@@ -1,42 +1,39 @@
-# ¡Hola, bienvenido a mi proyecto "Conversor de monedas"!
+# Hello, and welcome to my project "Currency Converter"!
 
-![imagen](./img/ejemplo.png)
+![imagen](./img/conversorDeMonedas.png)
 
-## Descripción del proyecto:
+## Project Overview
 
-Este proyecto calcula el valor de la divisa argentina, brasileña y colombiana a dólares y viceversa, consumiendo la "ExchangeRate-API".
+This project is designed to convert Argentine (ARS), Brazilian (BRL), Colombian (COP) and Mexican (MXN) currencies to US dollars (USD), and vice versa. It leverages the ExchangeRate-API to provide accurate, real-time exchange rates.
 
-## Estado del proyecto:
+## Project Status
 
-Finalizado.
+Completed.
 
-## Características de la aplicación:
+## Key Features
 
-* Este proyecto calcula el valor de la divisa deseada (argentina, colombiana, brasileña) a dolar estadounidense y viceversa mediante el uso de un menú mostrado al inicio.
+* Interactive menu for selecting the desired currency conversion (ARS, BRL, COP, MXN ↔ USD).
+* Real-time exchange rate retrieval using the ExchangeRate-API.
+* Input validation and exception handling for invalid user entries.
+* Clean and simple console-based user experience.
 
-* Consume la "ExchangeRate-API" para lograr la conversion en tiempo real.
+## Project Accessibility
 
-* Tiene excepciones cuando el usuario introduce una opción no válida.
-
-## Acceso al proyecto:
-
-Público.
+This project is publicly available.
 
 ## Tecnoligías utilizadas:
 
 * IntelliJ IDEA
 
-* Java
-
-* Gson
+* Spring Boot
 
 * ExchangeRate-API
 
-## Conclusión:
+## Conclusion
 
-El proyecto ofrece una solución al convertir el valor deseado de una divisa (ARS, BRL o COP) a dólares (USD) y viceversa, además valida si el usuario introdujo un valor válido, facilitando su reutilización en otras entradas.
+This project delivers a practical and efficient solution for currency conversion between ARS, BRL, COP, MXN, and USD. It ensures accurate results through real-time data integration while maintaining robust input validation, making it reliable and reusable for similar applications.
 
-## Desarrollado por:
+## Author
 
 ### Luis Rivas
 
