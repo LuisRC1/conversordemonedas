@@ -51,7 +51,7 @@ async function convertir(opcion) {
 
     try {
         const response = await fetch(
-            `http://localhost:8080/api/convertir?base=${base}&destino=${destino}`
+            `/api/convertir?base=${base}&destino=${destino}`
         );
 
         const data = await response.json();
