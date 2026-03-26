@@ -4,34 +4,52 @@
 
 ## Project Overview
 
-This project is designed to convert Argentine (ARS), Brazilian (BRL), Colombian (COP) and Mexican (MXN) currencies to US dollars (USD), and vice versa. It leverages the ExchangeRate-API to provide accurate, real-time exchange rates.
+This project is a Full-Stack Web Application that allows users to convert currencies between US dollars (USD) and Argentine pesos (ARS), Brazilian reals (BRL), Colombian pesos (COP), and Mexican pesos (MXN).
+
+It leverages an external exchange rate API to provide accurate, real-time currency conversions, integrating both frontend and backend into a single application built with Spring Boot.
 
 ## Project Status
 
-Completed.
+Completed and deployed.
 
 ## Key Features
 
-* Interactive menu for selecting the desired currency conversion (ARS, BRL, COP, MXN ↔ USD).
-* Real-time exchange rate retrieval using the ExchangeRate-API.
-* Input validation and exception handling for invalid user entries.
-* Clean and simple console-based user experience.
+* Interactive web interface for selecting currency conversions (USD ↔ ARS, BRL, COP, MXN).
+* Real-time exchange rate retrieval using an external API.
+* RESTful API built with Spring Boot.
+* Dynamic frontend using JavaScript (Fetch API) to consume backend services.
+* Input validation and error handling for invalid values and API failures.
+* Full integration of frontend and backend in a single deployable application.
 
 ## Project Accessibility
 
-This project is publicly available.
+The project is publicly available and deployed online via Railway.
 
 ## Tecnoligías utilizadas:
 
+* Java
+* Spring Boot
+* JavaScript (Fetch API)
+* HTML
+* CSS
+* ExchangeRate-API
+* Git and Github
+* Railway
 * IntelliJ IDEA
 
-* Spring Boot
+## Architecture
 
-* ExchangeRate-API
+* Backend developed using a layered architecture:
+  * Controller (REST endpoints)
+  * Service (API consumption and business logic)
+* Frontend served directly from the backend (/static directory)
+* Communication handled via HTTP requests (Fetch API)
 
 ## Conclusion
 
-This project delivers a practical and efficient solution for currency conversion between ARS, BRL, COP, MXN, and USD. It ensures accurate results through real-time data integration while maintaining robust input validation, making it reliable and reusable for similar applications.
+This project delivers a practical and efficient full-stack solution for real-time currency conversion. It demonstrates the integration of external APIs, backend development with Java and Spring Boot, and frontend interaction using JavaScript.
+
+It also showcases deployment skills by hosting the complete application in the cloud, making it accessible through a single URL.
 
 ## Author
 
